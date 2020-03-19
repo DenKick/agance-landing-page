@@ -245,7 +245,7 @@ table {
         grid-template-areas: 'heading' 'img';
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    grid-auto-rows: 50% 50%;
+    grid-auto-rows: 40% 60%;
   }
 }
 
@@ -271,7 +271,7 @@ table {
 
 @media screen and (max-width: 1230px) {
   .main-content__heading .heading__text .text__subheading {
-    margin: 5px 0 5px 5px;
+    margin: 5px 0 5px 25px;
   }
 }
 
@@ -284,7 +284,7 @@ table {
 @media screen and (max-width: 1230px) {
   .main-content__heading .heading__text .text__main-heading {
     font-size: 28px;
-    margin: 5px 0 5px 5px;
+    margin: 5px 0 5px 25px;
   }
 }
 
@@ -310,7 +310,7 @@ table {
 
 @media screen and (max-width: 1230px) {
   .main-content__heading .heading__text .text__link {
-    margin: 5px 0 5px 5px;
+    margin: 5px 0 5px 25px;
     padding: 10px 25px;
   }
 }
@@ -339,7 +339,14 @@ table {
 @media screen and (max-width: 1230px) {
   .main-content__heading .main-content__image .image__main-img {
     height: auto;
-    width: 70%;
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .main-content__heading .main-content__image .image__main-img {
+    height: auto;
+    width: 95%;
   }
 }
 
