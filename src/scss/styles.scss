@@ -1,0 +1,22 @@
+@import 'reset';
+@import 'fonts';
+@import 'variables';
+@import 'header';
+
+
+
+body {
+  color: $main-gray;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 14px;
+}
+
+a {
+  color: $main-gray;
+  text-decoration: none;
+  transition: .1s linear;
+
+  &:hover {
+    color: $main-yellow;
+  }
+}
