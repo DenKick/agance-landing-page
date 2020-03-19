@@ -30,7 +30,7 @@
     margin: auto auto auto 35px;
 
     @media screen and (max-width: 800px) {
-      margin: auto 0 auto 5px;
+      margin: auto 0 auto 10px;
       font-size: 16px;
     }
   }
@@ -59,7 +59,7 @@
     }
 
     @media screen and (max-width: 800px) {
-      margin: auto 5px;
+      margin: auto 10px;
     }
   }
 }
@@ -85,12 +85,12 @@
 
         @media screen and (max-width: 800px) {
           transform: rotate(0deg);
-          margin: auto 0 auto 5px;
+          margin: auto 0 auto 10px;
         }
       }
 
       @media screen and (max-width: 800px) {
-        margin: auto auto auto 5px;
+        margin: auto auto auto 10px;
       }
     }
 
@@ -118,7 +118,7 @@
 
     @media screen and (max-width: 800px) {
       display: inline;
-      margin: auto 5px auto 5px;
+      margin: auto 10px auto 10px;
     }
   }
 }

@@ -107,7 +107,7 @@ table {
 
 @media screen and (max-width: 800px) {
   .header__menu .menu__logo {
-    margin: auto 0 auto 5px;
+    margin: auto 0 auto 10px;
     font-size: 16px;
   }
 }
@@ -139,7 +139,7 @@ table {
 
 @media screen and (max-width: 800px) {
   .header__menu .menu__nav {
-    margin: auto 5px;
+    margin: auto 10px;
   }
 }
 
@@ -181,13 +181,13 @@ table {
   .header__main-content .main-content__sidebar .sidebar__link .link__works {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
-    margin: auto 0 auto 5px;
+    margin: auto 0 auto 10px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .header__main-content .main-content__sidebar .sidebar__link {
-    margin: auto auto auto 5px;
+    margin: auto auto auto 10px;
   }
 }
 
@@ -223,7 +223,7 @@ table {
 @media screen and (max-width: 800px) {
   .sidebar__social .social__item {
     display: inline;
-    margin: auto 5px auto 5px;
+    margin: auto 10px auto 10px;
   }
 }
 
