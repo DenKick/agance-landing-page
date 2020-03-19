@@ -83,6 +83,7 @@ table {
   .header {
     -ms-grid-rows: 40px 1fr;
         grid-template-rows: 40px 1fr;
+    height: 95vh;
   }
 }
 
