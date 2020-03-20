@@ -2,6 +2,7 @@
 @import 'fonts';
 @import 'variables';
 @import 'header';
+@import '_services';
 
 
 
@@ -19,4 +20,17 @@ a {
   &:hover {
     color: $main-yellow;
   }
+}
+
+.heading {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 25px 0 25px 0;
+}
+
+.subheading {
+  display: block;
+  font-size: 16px;
+  margin: 40px 0 25px 0;
 }

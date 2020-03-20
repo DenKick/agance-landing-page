@@ -271,7 +271,7 @@ table {
       -ms-flex-direction: column;
           flex-direction: column;
   -ms-grid-row: 1;
-  -ms-grid-column: 1;
+  -ms-grid-column: 2;
   grid-area: heading;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -352,7 +352,7 @@ table {
   display: -ms-flexbox;
   display: flex;
   -ms-grid-row: 1;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   grid-area: img;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -385,6 +385,86 @@ table {
   }
 }
 
+.services {
+  margin: 10px 0 30px 0;
+}
+
+.services__header {
+  text-align: center;
+  margin: 0 15px 50px 15px;
+}
+
+.services__main-content {
+  display: -ms-grid;
+  display: grid;
+  gap: 5vh;
+      grid-template-areas: '1 2 3' '4 5 6';
+  width: 68%;
+  margin: 0 auto;
+}
+
+.services__main-content .main-content__item {
+  display: -ms-grid;
+  display: grid;
+  gap: 3vh;
+      grid-template-areas: 'img heading';
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  font-size: 14px;
+}
+
+.services__main-content .main-content__item .item img {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: img;
+}
+
+.services__main-content .main-content__item .item__heading {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: heading;
+  text-transform: uppercase;
+}
+
+.services__main-content .main-content__item .item__text {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: heading;
+  margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: 1230px) {
+  .services__main-content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .services__main-content {
+    width: 90%;
+        grid-template-areas: '1 2' '3 4' '5 6';
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .services__main-content {
+    width: 60%;
+    gap: 8vh;
+        grid-template-areas: '1' '2' '3' '4' '5' '6';
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .services__main-content {
+    width: 80%;
+  }
+}
+
 body {
   color: #505050;
   font-family: 'Proxima Nova', sans-serif;
@@ -400,5 +480,18 @@ a {
 
 a:hover {
   color: #ffe400;
+}
+
+.heading {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 25px 0 25px 0;
+}
+
+.subheading {
+  display: block;
+  font-size: 16px;
+  margin: 40px 0 25px 0;
 }
 /*# sourceMappingURL=styles.css.map */
