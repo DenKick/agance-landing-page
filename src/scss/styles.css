@@ -103,7 +103,7 @@ table {
 .header__menu .menu__logo {
   font-size: 26px;
   font-weight: 700;
-  margin: auto auto auto 35px;
+  margin: auto 0 auto 35px;
 }
 
 @media screen and (max-width: 800px) {
@@ -114,7 +114,13 @@ table {
 }
 
 .header__menu .menu__link {
-  margin: auto auto auto auto;
+  margin: auto auto auto 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .header__menu .menu__link {
+    margin: auto auto;
+  }
 }
 
 .header__menu .menu__nav {
@@ -296,17 +302,20 @@ table {
 }
 
 .main-content__heading .heading__text .text__link {
-  position: relative;
   display: block;
   padding: 15px 35px;
-  background: linear-gradient(to right, #ffe400 95px, #fff 95px);
+  background: linear-gradient(to right, #ffe400 90px, #fff 90px);
   margin: 10px;
   width: 100px;
   z-index: 3;
+  -webkit-transition: .4s linear;
+  transition: .4s linear;
 }
 
 .main-content__heading .heading__text .text__link:hover {
-  color: #505050;
+  color: #111;
+  background: linear-gradient(to right, #ffe400 90px, #fff 90px);
+  padding: 15px 45px;
 }
 
 @media screen and (max-width: 1230px) {

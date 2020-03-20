@@ -28,7 +28,7 @@
   .menu__logo {
     font-size: 26px;
     font-weight: 700;
-    margin: auto auto auto 35px;
+    margin: auto 0 auto 35px;
 
     @media screen and (max-width: 800px) {
       margin: auto 0 auto 10px;
@@ -38,6 +38,10 @@
 
   .menu__link {
     margin: auto auto auto 100px;
+
+    @media screen and (max-width: 800px) {
+      margin: auto auto;
+    }
   }
 
   .menu__nav {
@@ -52,7 +56,7 @@
       margin: 2px 0 2px 0;
       width: 25px;
       height: 7px;
-      background-color: #fff;
+      background-color: $white;
     }
 
     &:hover {
@@ -60,7 +64,7 @@
     }
 
     @media screen and (max-width: 800px) {
-      margin: auto auto auto auto;
+      margin: auto 10px;
     }
   }
 }
@@ -168,16 +172,18 @@
     }
 
     .text__link {
-      position: relative;
       display: block;
       padding: 15px 35px;
-      background: linear-gradient(to right, #ffe400 95px, #fff 95px);
+      background: linear-gradient(to right, #ffe400 90px, #fff 90px);
       margin: 10px;
       width: 100px;
       z-index: 3;
+      transition: .4s linear;
 
       &:hover {
-        color: $main-gray;
+        color: #111;
+        background: linear-gradient(to right, #ffe400 90px, #fff 90px);
+        padding: 15px 45px;
       }
 
       @media screen and (max-width: 1230px) {
