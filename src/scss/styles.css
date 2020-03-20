@@ -279,10 +279,12 @@ table {
 }
 
 .main-content__heading .heading__text .container-text {
+  display: block;
   margin: 0 auto;
 }
 
 .main-content__heading .heading__text .text__subheading {
+  display: block;
   margin: 10px;
 }
 

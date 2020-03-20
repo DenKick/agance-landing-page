@@ -155,10 +155,12 @@
     justify-content: center;
 
     .container-text {
+      display: block;
       margin: 0 auto;
     }
 
     .text__subheading {
+      display: block;
       margin: 10px;
 
       @media screen and (max-width: 1230px) {
