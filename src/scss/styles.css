@@ -413,6 +413,13 @@ table {
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
   font-size: 14px;
+  opacity: 0.8;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.services__main-content .main-content__item:hover {
+  opacity: 1;
 }
 
 .services__main-content .main-content__item .item img {
@@ -436,6 +443,12 @@ table {
   -ms-grid-column: 2;
   grid-area: heading;
   margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: 950px) {
+  .services__main-content .main-content__item {
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 1230px) {
