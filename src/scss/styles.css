@@ -285,7 +285,7 @@ table {
 
 @media screen and (max-width: 1230px) {
   .main-content__heading .heading__text .text__subheading {
-    margin: 5px 0 5px 25px;
+    margin: 5px 0 5px 45px;
   }
 }
 
@@ -298,7 +298,7 @@ table {
 @media screen and (max-width: 1230px) {
   .main-content__heading .heading__text .text__main-heading {
     font-size: 28px;
-    margin: 5px 0 5px 25px;
+    margin: 5px 0 5px 45px;
   }
 }
 
@@ -311,7 +311,7 @@ table {
 .main-content__heading .heading__text .text__link {
   background: linear-gradient(to right, #ffe400 90px, #fff 90px);
   display: block;
-  margin: 10px;
+  margin: 15px;
   opacity: .85;
   padding: 15px 35px;
   -webkit-transition: .4s linear;
@@ -328,7 +328,7 @@ table {
 
 @media screen and (max-width: 1230px) {
   .main-content__heading .heading__text .text__link {
-    margin: 5px 0 5px 25px;
+    margin: 5px 0 5px 45px;
     opacity: 1;
     padding: 10px 25px;
   }

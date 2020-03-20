@@ -159,7 +159,7 @@
       margin: 10px;
 
       @media screen and (max-width: 1230px) {
-        margin: 5px 0 5px 25px;
+        margin: 5px 0 5px 45px;
       }
     }
 
@@ -170,7 +170,7 @@
 
       @media screen and (max-width: 1230px) {
         font-size: 28px;
-        margin: 5px 0 5px 25px;
+        margin: 5px 0 5px 45px;
       }
       @media screen and (max-width: 800px) {
         font-size: 24px;
@@ -180,7 +180,7 @@
     .text__link {
       background: linear-gradient(to right, #ffe400 90px, #fff 90px);
       display: block;
-      margin: 10px;
+      margin: 15px;
       opacity: .85;
       padding: 15px 35px;
       transition: .4s linear;
@@ -194,7 +194,7 @@
       }
 
       @media screen and (max-width: 1230px) {
-        margin: 5px 0 5px 25px;
+        margin: 5px 0 5px 45px;
         opacity: 1;
         padding: 10px 25px;
 
