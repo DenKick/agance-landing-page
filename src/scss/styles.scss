@@ -35,3 +35,10 @@ a {
   font-size: 16px;
   margin: 40px 0 25px 0;
 }
+
+::-webkit-scrollbar {
+  background-color: $white;
+}
+::-webkit-scrollbar-thumb {
+  background-color: $main-gray;
+}
