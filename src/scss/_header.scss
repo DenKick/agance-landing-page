@@ -16,7 +16,6 @@
 
   @media screen and (max-width: 800px) {
     grid-template-rows: 40px 1fr;
-    height: 95vh;
   }
 }
 
@@ -155,6 +154,10 @@
     grid-area: heading;
     justify-content: center;
 
+    .container-text {
+      margin: 0 auto;
+    }
+
     .text__subheading {
       margin: 10px;
 
@@ -164,6 +167,7 @@
     }
 
     .text__main-heading {
+      display: block;
       font-size: 48px;
       font-weight: 700;
       margin: 10px;
@@ -206,17 +210,16 @@
   }
 
   .main-content__image {
+    align-items: center;
     background-color: $light-gray;
     display: flex;
     grid-area: img;
-    margin: 0 60px 60px 15px;
     justify-content: center;
+    margin: 0 60px 60px 0;
 
     .image__main-img {
-      display: block;
-      margin: auto;
       height: auto;
-      width: 65%;
+      width: 70%;
 
       @media screen and (max-width: 1230px) {
         height: auto;
@@ -225,13 +228,12 @@
 
       @media screen and (max-width: 530px) {
         height: auto;
-        width: 95%;
+        width: 90%;
       }
     }
 
-    @media screen and (max-width: 1230px) {
-      background: none;
-      padding: 0 0 0 15px;
+    @media screen and (max-width: 800px) {
+      margin: 0;
     }
   }
 }
