@@ -37,7 +37,7 @@
   }
 
   .menu__link {
-    margin: auto auto auto auto;
+    margin: auto auto auto 100px;
   }
 
   .menu__nav {
@@ -60,7 +60,7 @@
     }
 
     @media screen and (max-width: 800px) {
-      margin: auto 10px;
+      margin: auto auto auto auto;
     }
   }
 }
