@@ -1,0 +1,108 @@
+@import 'variables';
+
+.work {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.work__menu {
+  margin: 60px auto 40px auto;
+
+  .menu__item {
+    cursor: pointer;
+    display: inline;
+    font-weight: 700;
+    margin: 0 20px 0 20px;
+    position: relative;
+    
+    & a {
+      color: $main-gray;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -5px;
+      left: 0;
+      background-color: $main-yellow;
+      transition: width .2s;
+    }
+
+    &:hover:after {
+      width: 100%;
+    }
+
+    @media screen and (max-width: 600px) {
+      font-size: 12px;
+      margin: 0 5px 0 5px;
+    }
+
+    @media screen and (max-width: 370px) {
+      font-size: 10px;
+      margin: 0 5px 0 5px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    margin: 20px auto 20px auto;
+  }
+}
+
+.work__images {
+  display: grid;
+  gap: 3vh;
+  grid-template-areas: 
+  '1 2 3'
+  '4 5 6';
+  margin: 20px auto;
+
+  & img {
+    @media screen and (max-width: 750px) {
+      width: 150px;
+      height: auto;
+    }
+
+    @media screen and (max-width: 400px) {
+      width: 130px;
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width: 1150px) {
+    grid-template-areas: 
+  '1 2'
+  '3 4'
+  '5 6';
+  }
+}
+
+.work__link {
+  background: linear-gradient(to right, #ffe400 90px, #fff 90px);
+  display: block;
+  margin: 30px auto;
+  opacity: .85;
+  padding: 15px 35px;
+  transition: .4s linear;
+  width: 110px;
+
+  &:hover {
+    background: linear-gradient(to right, #ffe400 90px, #fff 90px);
+    color: #111;
+    opacity: 1;
+    padding: 15px 45px;
+  }
+
+  @media screen and (max-width: 1230px) {
+    font-size: 12px;
+    margin: 15px auto;
+    opacity: 1;
+    padding: 10px 25px;
+
+    &:hover {
+      padding: 10px 35px;
+    }
+  }
+}
