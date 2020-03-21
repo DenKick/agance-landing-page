@@ -624,8 +624,6 @@ table {
 @media screen and (max-width: 1230px) {
   .skills__img img {
     display: none;
-    margin: 10% auto;
-    width: 60%;
   }
 }
 
@@ -637,6 +635,12 @@ table {
     -ms-grid-rows: 45% 55%;
         grid-template-rows: 45% 55%;
     width: 65%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .skills {
+    width: 80%;
   }
 }
 
@@ -715,6 +719,12 @@ table {
   font-weight: 700;
   margin: 25px 0 0 0;
   padding: 0 0 0 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .skills__about-us .about-us__progressbar {
+    margin: 5px 0 0 10%;
+  }
 }
 
 @media screen and (max-width: 1230px) {
