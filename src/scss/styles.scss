@@ -4,6 +4,7 @@
 @import 'header';
 @import 'services';
 @import 'work';
+@import 'skills';
 
 
 
@@ -41,4 +42,9 @@ a {
 }
 ::-webkit-scrollbar-thumb {
   background-color: $main-gray;
+}
+
+::selection {
+  background-color: $main-yellow;
+  color: $main-gray;
 }
