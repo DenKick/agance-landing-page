@@ -5,8 +5,12 @@
 @import 'services';
 @import 'work';
 @import 'skills';
+@import 'team';
+@import 'subscribe';
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   color: $main-gray;

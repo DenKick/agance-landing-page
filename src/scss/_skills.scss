@@ -2,7 +2,7 @@
 
 .skills {
   display: grid;
-  gap: 5vh;
+  gap: 15vh;
   grid-template-areas: 'text img';
   grid-template-columns: 45% 55%;
   grid-template-rows: 1fr;
@@ -12,7 +12,7 @@
   &__img {
 
     img {
-      width: 95%;
+      width: 80%;
       height: auto;
 
       @media screen and (max-width: 1230px) {
@@ -28,6 +28,7 @@
     grid-template-columns: 100%;
     grid-template-rows: 45% 55%;
     width: 65%;
+    gap: 3vh;
   }
 
   @media screen and (max-width: 800px) {
@@ -44,7 +45,7 @@
   'text text text'
   'progressbar1 progressbar2 progressbar3';
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 6fr 2fr;
+  grid-template-rows: 1fr 1fr 4fr 2fr;
 
   .about-us__subheading {
     align-self: center;
@@ -97,7 +98,7 @@
   }
 
   @media screen and (max-width: 1230px) {
-    grid-template-rows: 1fr 1fr 4fr 3fr;
+    grid-template-rows: 1fr 1fr 4fr 2.5fr;
   }
 
   @media screen and (max-width: 700px) {
