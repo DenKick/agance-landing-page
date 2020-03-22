@@ -22,13 +22,14 @@
   }
 
   @media screen and (max-width: 1230px) {
+    gap: 0;
     grid-template-areas:
     'text'
     'img';
     grid-template-columns: 100%;
     grid-template-rows: 45% 55%;
+    margin: 40px auto 0 auto;
     width: 65%;
-    gap: 3vh;
   }
 
   @media screen and (max-width: 800px) {
