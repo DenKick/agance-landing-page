@@ -9,4 +9,10 @@ This page is full adaptive (that means that it could look good on every device).
 
 ![Desktop](screenshots/desktop.png)
 
+**Tablet**
+
+![Tablet](screenshots/tablet.png)
+
 **Mobile**
+
+![Mobile](screenshots/smartphone.png)
