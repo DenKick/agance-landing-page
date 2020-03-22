@@ -978,6 +978,17 @@ table {
   }
 }
 
+.footer {
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    margin: 20px 0;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
