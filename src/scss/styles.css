@@ -624,6 +624,7 @@ table {
 @media screen and (max-width: 1230px) {
   .skills__img img {
     display: none;
+    margin: 40px auto 20px auto;
   }
 }
 
