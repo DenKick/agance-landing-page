@@ -6,4 +6,5 @@ This page is full adaptive (that means that it could look good on every device).
 # Screenshots
 
 ## Desktop
+
 ![Desktop](/Screenshots/Agance Landing Page.png?raw=true "Optional Title")
