@@ -7,4 +7,4 @@ This page is full adaptive (that means that it could look good on every device).
 
 ## Desktop
 
-![Desktop](./Screenshots/Agance Landing Page.png?raw=true)
+![Desktop](Screenshots/Agance Landing Page.png?raw=true)
