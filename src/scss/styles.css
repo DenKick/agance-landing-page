@@ -629,7 +629,7 @@ table {
 
 @media screen and (max-width: 1230px) {
   .skills {
-    gap: 0;
+    gap: 2vh;
         grid-template-areas: 'text' 'img';
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
@@ -642,6 +642,7 @@ table {
 
 @media screen and (max-width: 800px) {
   .skills {
+    gap: 0;
     width: 80%;
   }
 }

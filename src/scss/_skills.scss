@@ -22,7 +22,7 @@
   }
 
   @media screen and (max-width: 1230px) {
-    gap: 0;
+    gap: 2vh;
     grid-template-areas:
     'text'
     'img';
@@ -33,6 +33,7 @@
   }
 
   @media screen and (max-width: 800px) {
+    gap: 0;
     width: 80%;
   }
 }
